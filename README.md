@@ -37,7 +37,7 @@
 
 1. 以下命令请使用MobaXterm运行，且将该软件的 Settings->X11中的改为如下
 
-   <img src="https://github.com/Fresh-Orange/slam_lib/tree/master/image/1565093034762.png" width="80%" height="80%" />
+   <img src="https://github.com/Fresh-Orange/slam_lib/raw/master/image/1565093034762.png" width="80%" height="80%" />
    
 
 2. 输入命令`xclock`，若能看到一个时钟就没问题
@@ -88,7 +88,7 @@
 
 运行`python3 slam_gui.py`，将看到下图的图形界面，选择一种算法并选择一个数据集之后点击运行即可。当需要关闭所有运行窗口时，只需要点击“终止运行”即可全部关闭
 
-<img src="https://github.com/Fresh-Orange/slam_lib/tree/master/image/1565784936306.png" width="50%" height="50%" />
+<img src="https://github.com/Fresh-Orange/slam_lib/raw/master/image/1565784936306.png" width="50%" height="50%" />
 
 
 
@@ -195,13 +195,13 @@
 
    将所有的算法都整合成统一命名格式（run_XXX.sh）的脚本，并放在同一地方（/root目录），`ros_slam_image:19-7-22`镜像的root目录如下所示
 
-   ![1565244066646](https://github.com/Fresh-Orange/slam_lib/tree/master/image/1565244066646.png)
+   ![1565244066646](https://github.com/Fresh-Orange/slam_lib/raw/master/image/1565244066646.png)
 
    
 
    本层的封装根据不同算法的具体情况其命令大不相同，这里以orb_slam算法为例，run_orb_slam.sh的内容（仅仅显示部分）如下：
 
-   ![1565244373671](https://github.com/Fresh-Orange/slam_lib/tree/master/image/1565244373671.png)
+   ![1565244373671](https://github.com/Fresh-Orange/slam_lib/raw/master/image/1565244373671.png)
 
    上述内容显示该脚本中根据用户传入的参数选择不同的运行命令和数据集运行，并将冗长的命令封装在脚本内部。
 
@@ -238,7 +238,7 @@
 
    在本例中需要准备yaml文件和数据集，并修改/root/run_orb_slam.sh中的命令
 
-   ![1565580630196](https://github.com/Fresh-Orange/slam_lib/tree/master/image/1565580630196.png)
+   ![1565580630196](https://github.com/Fresh-Orange/slam_lib/raw/master/image/1565580630196.png)
 
    
 
